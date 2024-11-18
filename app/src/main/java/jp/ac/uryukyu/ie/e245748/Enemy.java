@@ -54,11 +54,19 @@ public class Enemy {
             System.out.printf("モンスター%sは倒れた。\n", name);
         }
     }
-
+    /**
+     * モンスターの名前を取得する。
+     * 
+     * @return モンスターの名前
+     */
     public String getName(){
         return name;
     }
-
+    /**
+     * モンスターの生死状態を取得する。
+     * 
+     * @return モンスターが死亡している場合は{@code true}、生存している場合は{@code false}
+     */
     public boolean isDead(){
         return dead;
     }
